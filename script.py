@@ -6,8 +6,8 @@ import json
 from typing import List, Dict, Any
 
 # MongoDB connection details
-client = MongoClient('mongodb+srv://chora-club:VIsYV9nBcTpTDpme@choraclub.2uqnfpc.mongodb.net/')
-# client = MongoClient('mongodb+srv://captainwalter11:GAd5lSC2kV2vVTZw@cluster0.qkgxzxw.mongodb.net/')
+client = MongoClient('mongodb+srv://')
+
 db = client['CPI']
 collection = db['delegate_data']
 checkpoint_collection = db['import_checkpoints']
